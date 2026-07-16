@@ -25,6 +25,7 @@ try {
     );
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+    $pdo->exec("SET time_zone = '+07:00'");
 } catch (PDOException $e) {
     die('<div style="padding:20px;background:#0a0a0a;color:#f87171;font-family:monospace;border-radius:12px;margin:20px;">
         <strong>DB Error:</strong> ' . htmlspecialchars($e->getMessage()) . '

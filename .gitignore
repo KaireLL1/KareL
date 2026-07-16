@@ -1,10 +1,18 @@
-# Uploads (foto user)
-/uploads/
+# Database SQL files
+*.sql
 
-# OS files
+# Uploads (user photos)
+uploads/*
+!uploads/.gitkeep
+
+# Laporan
+laporan.html
+
+# Config with credentials (keep as template)
+# config/database.php
+
+# OS & editor files
 .DS_Store
 Thumbs.db
-
-# IDE
 .vscode/
-.idea/
+*.log
