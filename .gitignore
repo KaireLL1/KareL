@@ -1,0 +1,10 @@
+# Uploads (foto user)
+/uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
